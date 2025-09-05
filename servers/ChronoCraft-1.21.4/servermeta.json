@@ -1,0 +1,31 @@
+{
+  "$schema": "file:///D:/helios/ChronoCraft/distro/schemas/ServerMetaSchema.schema.json",
+  "meta": {
+    "version": "1.0.0",
+    "name": "크로노크래프트",
+    "description": "ChronoCraft Running Minecraft 1.21.4 (Fabric v0.17.2)",
+    "icon": "https://raw.githubusercontent.com/hdc0178-design/ChronoCraft-distro/main/icon.png",
+    "address": "58.229.241.160",
+    "discord": {
+      "shortId": "<FILL IN OR REMOVE DISCORD OBJECT>",
+      "largeImageText": "<FILL IN OR REMOVE DISCORD OBJECT>",
+      "largeImageKey": "<FILL IN OR REMOVE DISCORD OBJECT>"
+    },
+    "mainServer": true,
+    "autoconnect": true
+  },
+  "fabric": {
+    "version": "0.17.2"
+  },
+  "untrackedFiles": [
+	{
+		"appliesTo": ["files"],
+		"patterns": [
+		  "options.txt",
+		  "optionsof.txt",
+		  "optionsshaders.txt",
+		  "servers.dat"
+		]
+	}
+  ]
+}
