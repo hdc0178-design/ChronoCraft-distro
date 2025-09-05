@@ -12,7 +12,7 @@
       "name": "크로노크래프트",
       "description": "ChronoCraft Running Minecraft 1.21.4 (Fabric v0.17.2)",
       "icon": "https://raw.githubusercontent.com/hdc0178-design/ChronoCraft-distro/main/icon.png",
-      "version": "1.0.0",
+      "version": "1.0.1",
       "address": "58.229.241.160",
       "minecraftVersion": "1.21.4",
       "discord": {
@@ -153,6 +153,16 @@
             "size": 1306799,
             "url": "https://raw.githubusercontent.com/hdc0178-design/ChronoCraft-distro/main/servers/ChronoCraft-1.21.4/fabricmods/required/sodium-fabric-0.6.13+mc1.21.4.jar",
             "MD5": "28922a78d1876ee062e3265f10abcc46"
+          }
+        },
+        {
+          "id": "iris.properties",
+          "name": "iris.properties",
+          "type": "File",
+          "artifact": {
+            "size": 294,
+            "url": "https://raw.githubusercontent.com/hdc0178-design/ChronoCraft-distro/main/servers/ChronoCraft-1.21.4/files/config/iris.properties",
+            "path": "config/iris.properties"
           }
         },
         {
